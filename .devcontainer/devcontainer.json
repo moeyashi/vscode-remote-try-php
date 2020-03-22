@@ -16,11 +16,13 @@
 	// "postCreateCommand": "php -v",
 
 	// Comment out if you want to use root
-	"remoteUser": "vscode",
+	// "remoteUser": "vscode",
 
 	// Add the IDs of extensions you want installed when the container is created in the array below.
 	"extensions": [
 		"felixfbecker.php-debug",
 		"felixfbecker.php-intellisense"
-	]
+	],
+
+	"forwardPorts": [8080]
 }
